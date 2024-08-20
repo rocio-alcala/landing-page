@@ -1,18 +1,20 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./views/RootLayout.tsx";
+import Home from "./views/Home.tsx";
+import Products from "./views/Products.tsx";
+import Contact from "./views/Contact.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "/", element: <div>Hello world!</div> },
-      { path: "/products", element: <div>Products</div> },
-      { path: "/contact", element: <div>Contacto</div> }
+      { path: "/", element: <Home></Home> },
+      { path: "/products", element: <Products></Products> },
+      { path: "/contact", element: <Contact></Contact> }
     ]
   }
 ]);
