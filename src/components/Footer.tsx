@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="flex animate-fadeIn flex-wrap items-start justify-center sm:justify-between gap-5 bg-black p-2 font-manrope text-[#FFF5D6]">
+    <footer className="flex shadow-2xl animate-fade-in flex-wrap items-start justify-center sm:justify-between gap-5 bg-black p-2 font-manrope text-[#FFF5D6]">
       <p className="p-3" aria-label="Desarrollado por Rocio Alcala">
         Copyright 2024{" "}
         <span className="underline">
