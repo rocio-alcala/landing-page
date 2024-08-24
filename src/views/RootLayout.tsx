@@ -3,10 +3,8 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
 export default function RootLayout() {
-
-
   return (
-    <main className=" min-h-svh flex flex-col bg-[#0e100f]">
+    <main className=" min-h-svh flex flex-col bg-[#0e100f] text-[#ffffff]">
       <NavBar />
       <Outlet />
       <Footer />

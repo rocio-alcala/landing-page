@@ -76,7 +76,7 @@ export default function NavBar() {
             <div
               className={`absolute ${
                 isMenuOpen ? "top-[80px]" : "top-[-898px]"
-              } left-0 z-50 h-screen bg-black w-full animate-fade-out-top transition-all duration-500 `}
+              } left-0 z-50 h-screen bg-[#0e100f] w-full animate-fade-out-top transition-all duration-500 `}
             >
               <ul className="flex gap-3 text-white  text-xl flex-col items-center justify-center pt-10">
                 <NavBarList onItemClick={handleMenuToggle} />
