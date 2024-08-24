@@ -38,7 +38,8 @@ export default function ContactForm() {
         success: true
       });
       reset();
-    } catch (e) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    } catch (e: any) {
       setModal({
         isOpen: true,
         message: e.message || "Error al enviar el formulario",
