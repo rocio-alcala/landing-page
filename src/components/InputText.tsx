@@ -18,7 +18,7 @@ const InputText = forwardRef<
     <div className={cn("w-full flex-col text-base", className)}>
       <label>
         {label && (
-          <legend className=" py-1 text-start font-semibold leading-6 text-[#FFFFFF]">
+          <legend className=" py-1 text-start font-semibold leading-6 text-[#FFF5D6]">
             {label}
             {required && <span className="text-[#c2983e]">*</span>}
           </legend>

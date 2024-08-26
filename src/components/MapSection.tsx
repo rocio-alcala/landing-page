@@ -3,7 +3,7 @@ import { IoMail } from "react-icons/io5";
 
 export default function MapSection() {
   return (
-    <div className="md:w-[60%] flex flex-col justify-center items-center">
+    <div className="md:w-[60%] flex flex-col justify-center items-center order-last md:order-first text-[#FFF5D6]">
       <iframe
         className="rounded-xl mb-4"
         width="100%"

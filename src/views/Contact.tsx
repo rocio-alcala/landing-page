@@ -10,7 +10,7 @@ export default function Contact() {
         backgroundPosition: "75% 25%"
       }}
       className={cn(
-        "flex-1 flex flex-col md:flex-row p-6 sm:p-10 md:p-15 bg-cover animate-fade-in gap-10",
+        "flex-1 flex flex-col md:flex-row  p-6 sm:p-10 md:p-15 bg-cover animate-fade-in gap-10",
         "pt-28 sm:pt-28 md:pt-32"
       )}
     >
